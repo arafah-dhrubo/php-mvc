@@ -10,8 +10,8 @@
       }
 
       $data = [
-        'title' => 'SharePosts',
-        'description' => 'Simple social network built on the TraversyMVC PHP framework'
+        'title' => 'Dummy MVC',
+        'description' => 'Welcome To Our Site'
       ];
      
       $this->view('pages/index', $data);

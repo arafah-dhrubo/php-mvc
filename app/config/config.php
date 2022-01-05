@@ -8,7 +8,7 @@
   // App Root
   define('APPROOT', dirname(dirname(__FILE__)));
   // URL Root
-  define('URLROOT', 'http://localhost:8000/public/?url=pages/index');
+  define('URLROOT', 'http://localhost:8000/public/');
   // Site Name
   define('SITENAME', 'Dummy MVC');
   // App Version
