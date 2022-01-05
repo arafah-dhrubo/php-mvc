@@ -13,12 +13,12 @@
       //print_r($this->getUrl());
 
       $url = $this->getUrl();
-
       // Look in controllers for first value
       if(file_exists('../app/controllers/' . ucwords($url[1]). '.php')){
         // If exists, set as controller
         $this->currentController = ucwords($url[1]);
         // Unset 0 Index
+          unset($url[0]);
         unset($url[1]);
       }
 
@@ -44,10 +44,10 @@
       // Call a callback with array of params
       call_user_func_array([$this->currentController, $this->currentMethod], $this->params);
     }
-
+//  $_SERVER["PATH_INFO"]
     public function getUrl(){
       if(isset($_SERVER["PATH_INFO"])){
-        $url = rtrim($_SERVER["PATH_INFO"], '/');
+        $url = rtrim(($_SERVER["PATH_INFO"]), '/');
         $url = filter_var($url, FILTER_SANITIZE_URL);
         return explode('/', $url);
 

@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8afd4e15-19e0-4a95-8b66-6db372d9c9c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/Pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/url_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/url_helper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/libraries/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/libraries/Core.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/inc/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/inc/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/show.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,26 +62,11 @@
       <workItem from="1641267229676" duration="8751000" />
       <workItem from="1641283244035" duration="1277000" />
       <workItem from="1641287875818" duration="2318000" />
-      <workItem from="1641354211106" duration="3260000" />
+      <workItem from="1641354211106" duration="8320000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/app/controllers/Pages.php</url>
-          <line>19</line>
-          <properties>
-            <option name="className" value="\Pages" />
-            <option name="methodName" value="about" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

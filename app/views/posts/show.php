@@ -5,7 +5,8 @@
 <div class="bg-secondary text-white p-2 mb-3">
   Written by <?php echo $data['user']->name; ?> on <?php echo $data['post']->created_at; ?>
 </div>
-<p><?php echo $data['post']->body; ?></p>
+    <h1><?php echo $data['post']->title; ?></h1>
+<p><?php echo $data['post']->body; ?>
 
 <?php if($data['post']->user_id == $_SESSION['user_id']) : ?>
   <hr>

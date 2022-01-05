@@ -1,5 +1,6 @@
 <?php
   // Simple page redirect
   function redirect($page){
-    header('http://localhost:8000/public/?url=pages/index');
+      //var_dump("http://localhost:8000/public/".$page);
+    header("Location: ".URLROOT.$page);
   }

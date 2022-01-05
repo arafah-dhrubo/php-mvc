@@ -6,7 +6,8 @@
     
     public function index(){
       if(isLoggedIn()){
-        redirect('posts');
+          //header("http://localhost:8000/public/pages/index");
+        redirect('posts/index');
       }
 
       $data = [
