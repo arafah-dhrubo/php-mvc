@@ -1,7 +1,3 @@
-# php-mvc
-A simple blog project based on a custom-created MVC framework using PHP &amp; MySQL. That follows the Facade design pattern.
-
-
 # Blog Project
 
 A brief description of what this project does and who it's for
